@@ -1,0 +1,55 @@
+body {
+    background-color: #eeeeee;
+    color: #6f6f6f;
+}
+
+header,
+footer {
+    background-color: white;
+}
+
+h1 {
+    background-color: #ff4020;
+    color: white;
+    font-size: 2em;
+}
+
+nav a {
+    font-size: 1em;
+    font-style: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*O elemento "a" já foi visitado*/
+nav a:visited {
+    color: #6f6f6f;
+}
+
+/*Esta com o mouse em cima do elemento "a"*/
+nav a:hover {
+    color: #ff4020;
+    text-decoration: underline;
+}
+
+/*Enquanto está sendo clicado*/
+nav a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
+/*Titulos H2 dentro do article*/
+.titulo-article {
+    color: royalblue
+}
+
+/*Link do e-mail do rodape, quando for visitado*/
+#link-email:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#link-email:hover {
+    text-decoration: underline;
+    color: #ff4020;
+}

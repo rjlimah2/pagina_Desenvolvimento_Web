@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursinho Web - Contato</title>
     <link rel="icon" href="icon_pag.png">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
     <!--Cabeçalho da página web-->
     <header>
         <nav>
-            <a href="http://127.0.0.1:5500/p-gina_Desenvolvimento_Web/index.html">Página Inicial</a>
+            <a href="http://127.0.0.1:5500/pagina_Desenvolvimento_Web/index.html" class="link_pag_inicial">Página
+                Inicial</a>
             |
-            <a href="http://127.0.0.1:5500/p-gina_Desenvolvimento_Web/disciplinas.html">Disciplinas Oferecidas</a>
+            <a href="http://127.0.0.1:5500/pagina_Desenvolvimento_Web/disciplinas.html"
+                class="link_pag_inicial">Disciplinas Oferecidas</a>
             |
-            <a href="http://127.0.0.1:5500/p-gina_Desenvolvimento_Web/contato.html">Entre em contato</a>
+            <a href="http://127.0.0.1:5500/pagina_Desenvolvimento_Web/contato.html" class="link_pag_inicial">Entre em
+                contato</a>
         </nav>
     </header>
 
     <h1>Dados para contato:</h1>
     <form method="POST">
         <div>
-            Nome Completo:<br>
-            <input type="text" name="nome"><br>
-            E-mail:<br>
-            <input type="email" name="email"><br><br>
+            <label>
+                Nome Completo:<br>
+                <input type="text" name="nome"><br>
+            </label>
+            <label>
+                E-mail:<br>
+                <input type="email" name="email"><br><br>
+            </label>
         </div>
 
         <div>
@@ -39,47 +47,58 @@
         <div>
             <fieldset>
                 <legend>Quais linguagens você conhece?</legend>
-                <input type="checkbox" name="c#" value="C#">
-                <label for="ra-checkbox">C#</label><br>
+                <label>
+                    <input type="checkbox" name="c#" value="C#">C#
+                </label><br>
 
-                <input type="checkbox" name="java" value="Java">
-                <label for="ra-checkbox">Java</label><br>
+                <label>
+                    <input type="checkbox" name="java" value="Java">Java
+                </label><br>
 
-                <input type="checkbox" name="javascript" value="JavaScript">
-                <label for="ra-checkbox">JavaScript</label><br>
+                <label>
+                    <input type="checkbox" name="javascript" value="JavaScript">JavaScript
+                </label><br>
 
-                <input type="checkbox" name="python" value="Python">
-                <label for="ra-checkbox">Python</label><br>
+                <label>
+                    <input type="checkbox" name="python" value="Python">Python
+                </label><br>
 
-                <input type="checkbox" name="php" value="PHP">
-                <label for="ra-checkbox">PHP</label><br>
+                <label>
+                    <input type="checkbox" name="php" value="PHP">PHP
+                </label><br>
 
-                <input type="checkbox" name="ruby" value="Ruby">
-                <label for="ra-checkbox">Ruby</label><br>
+                <label>
+                    <input type="checkbox" name="ruby" value="Ruby">Ruby
+                </label><br>
             </fieldset>
         </div>
         <br>
         <div>
             <fieldset>
                 <legend>Onde você conheceu o Cursinho Web?</legend>
-                <input type="radio" name="amigos" value="Amigos">
-                <label for="ra-radio">Amigos</label><br>
 
-                <input type="radio" name="google" value="Google">
-                <label for="ra-radio">Google</label><br>
+                <label>
+                    <input type="radio" name="cursinho" value="Amigos">Amigos
+                </label><br>
 
-                <input type="radio" name="youtube" value="Youtube">
-                <label for="ra-radio">Youtube</label><br>
+                <label>
+                    <input type="radio" name="cursinho" value="Google">Google
+                </label><br>
 
-                <input type="radio" name="instagram" value="Instagram">
-                <label for="ra-radio">Instagram</label><br>
+                <label>
+                    <input type="radio" name="cursinho" value="Youtube">Youtube
+                </label><br>
+
+                <label>
+                    <input type="radio" name="cursinho" value="Instagram">Instagram
+                </label><br>
             </fieldset>
         </div>
 
         <div>
             <br>
-            <button type="submit">Limpar</button>
-            <button type="reset">Enviar</button>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
         </div>
     </form>
     <!--abrir e-mail direto no navegador-->
@@ -87,7 +106,9 @@
         <br>
         Cursinho Web - Todos os direitos reservados
         <br>
-        Contato: <a href="https://mail.google.com/mail/?view=cm&to=rodrigodjjl@gmail.com" target="_blank">rodrigodjjl@gmail.com</a>
+        Contato: <a id="link-email" href="https://mail.google.com/mail/?view=cm&to=rodrigodjjl@gmail.com"
+            target="_blank">rodrigodjjl@gmail.com</a>
     </footer>
 </body>
+
 </html>
