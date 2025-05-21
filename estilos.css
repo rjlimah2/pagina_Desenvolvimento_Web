@@ -1,6 +1,7 @@
 body {
     background-color: #eeeeee;
     color: #6f6f6f;
+    margin: 0px;
 }
 
 header,
@@ -12,6 +13,7 @@ h1 {
     background-color: #ff4020;
     color: white;
     font-size: 2em;
+    margin-top: 0px;
 }
 
 nav a {
@@ -19,6 +21,10 @@ nav a {
     font-style: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    background-color: #ededed;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    margin: 1px;
 }
 
 /*O elemento "a" já foi visitado*/
@@ -52,4 +58,33 @@ nav a:active {
 #link-email:hover {
     text-decoration: underline;
     color: #ff4020;
+}
+
+#img-logo {
+    width: 200px;
+    margin-left: 15px;
+}
+
+header {
+    height: 140px;
+    margin: 0px;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
 }
